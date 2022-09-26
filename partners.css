@@ -1,0 +1,569 @@
+@media screen and (max-width:450px) {
+    body {
+            background-color: #000000;
+            float: inline-start;
+            flood-opacity: .5;
+            opacity: 5;
+            display: flex;
+            text-decoration: none;
+            justify-content: center;
+            background-size: cover;
+            border-style: none;
+            background-size: 100% 1.2em;
+            align-items: justify;
+            align-content: justify;
+            flex-direction: column;
+            display: flex;
+            resize: vertical;
+            cursor: pointer;
+            position: relative;
+            page-break-after: avoid;
+            break-after: avoid;
+            position: absolute;
+            align-items: center;
+            top: 0;
+            left: 0;
+             bottom: 0;
+             right: 0;
+             width: 100%;
+             height: 100%;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            break-inside: avoid;
+            height: auto;
+       
+        }
+    }
+
+    body{
+        /**height: 100vh;**/
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        padding: 0;
+        margin: 0;
+        background-size: 100% 1.2em;
+        margin-top: 30px;
+        background-size: cover;
+        border-style: none;
+        background-size: 100% 1.2em;
+        align-items: justify;
+        align-content: justify;
+        flex-direction: column;
+        display:flex;
+        resize: vertical;
+        cursor: pointer;
+        position: relative;
+        page-break-after: avoid;
+        break-after: avoid;
+        height: auto;
+        align-items: center;
+    
+       
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+      
+      }
+    @media only all and (orientation: portrait) { }
+    
+    html {
+        scroll-behavior: smooth;
+      /*  box-sizing: border-box;
+        margin: 0; padding: 0;
+        break-inside: avoid;
+       */
+      }
+
+nav{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    break-inside: avoid;
+    display: block;
+
+}
+
+nav img {
+    height: 40px;
+    position: absolute;
+    width: 40px;
+    left: 0%;
+    top: 0%;
+    margin-left: 300px;
+    margin-top: 8px;
+
+}
+
+nav button {
+    top: 0%;
+    left: 0%;
+    margin-left: 1500px;
+    margin-top: 15px;
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    background: #AA52FF;
+    border-radius: 72px;
+    text-align: center;
+    padding-top:5px;
+    padding-left: 25px;
+    font-family:'Inter';
+    font-weight: bolder;
+}
+
+.Company_icon button:hover {
+    background-color: blue;
+}
+
+nav h1 {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-left: 1380px;
+    left: 0%;
+    top: 0%;
+    margin-top: 20px;
+}
+
+nav h1:hover {
+    color: blue;
+}
+
+nav h2 {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-left: 1200px;
+    left: 0%;
+    top: 0%;
+    margin-top: 20px;
+    font-family:'Inter';
+    font-weight: bolder;
+}
+
+nav h2:hover {
+    color: blue;
+}
+nav rb{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-left: 1400px;
+    left: 0%;
+    top: 0%;
+    margin-top: 20px; 
+    font-family:'Inter';
+    font-weight: bolder;
+    text-decoration: none;
+   
+}
+nav rb:hover {
+    color: blue;
+}
+nav sup{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 0%;
+    margin-left: 1300px;
+    top: 0%;
+    margin-top: 20px; 
+    font-family: 'Inter';
+    font-weight:bolder;
+  
+}
+nav sup:hover {
+    color: blue;
+}
+nav sub {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-left: 350px;
+    left: 0%;
+    top: 0%;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-weight:bolder;
+}
+
+nav sub:hover {
+    color: blue;
+}
+.search-box{
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    background:black;
+    border-radius: 40px;
+    height: 40px;
+    padding: 10px;
+   /* border: 1px solid gray;*/
+   margin: 0; padding: 0;
+   break-inside: avoid;
+  
+  
+    
+}
+.search-box:hover > .search-txt{
+    width: 140px;
+    padding:  0 6px;
+    text-decoration: none;
+}
+search-box:hover > .search-btn{
+   background: white;
+   text-decoration: none;
+}
+.search-btn{
+    color:white;
+    float:none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color:white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:240px;
+    font-size: 15px;
+}
+
+.Our_partners{
+
+    width: 1390px;
+    height: 719px;
+    left: 265px;
+    top: 5288px;
+
+    background: linear-gradient(245.02deg, #334780 -7.64%, #8E7DBC 38.72%, #AA52FF 89.37%);
+    border-radius: 30px;
+}
+
+.Our_partners{
+    display: block;
+    padding: 5px;
+    padding-right: 7px;
+}
+.Our_partners00{
+
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-left: 8%;
+    padding: 20px;
+
+}
+.Our_partners00 .Toyota img{
+    margin-top: 30px;
+    width: 252px;
+    height: 220px;
+    transition: 1s ease;
+}
+.Our_partners00 .Toyota img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+.Our_partners00 .Burger img{
+    margin-top: 30px;
+    width: 195px;
+    height: 189px;
+    transition: 1s ease;
+}
+.Our_partners00 .Burger img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    /*   */
+    }
+.Our_partners00 .SLB img{
+    margin-top: 30px;
+    width: 191px;
+    height: 186px;
+    margin-left: 12%;
+    transition: 1s ease;
+}
+.Our_partners00 .SLB img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+.Our_partners00 .Meo img{
+    margin-top: 30px;
+    width: 471px;
+    height: 156px;
+    margin-left: 14%;
+    transition: 1s ease;
+}
+.Our_partners00 .Meo img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+.Our_partners01{
+    margin-top: 70px;
+    display: flex;
+    margin-left: auto;
+    float: left;
+    margin-left: 8%;  
+}
+.Our_partners01 .church_hill img{
+    width: 483px;
+    height: 189px;
+    border-radius: 36px;
+    transition: 1s ease;
+ 
+}
+.Our_partners01 .church_hill img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+.Our_partners01 .Logo2 img{
+    width: 279px;
+    height: 259px;
+    transition: 1s ease;
+    
+}
+.Our_partners01 .Logo2 img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+.Our_partners01 .Delta img{
+    width: 175px;
+    height: 175px;
+    transition:1s  ease;
+
+}
+.Our_partners01 .Delta img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+.Our_partners01 .Pingo img{
+    width: 181px;
+    height: 181px;
+    padding-left: 7px;
+    margin-left: 30%;
+    transition:1s  ease;
+}
+.Our_partners01 .Pingo img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+.Our_partners ins{
+    float:right;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px; 
+    letter-spacing: 0.231px;
+    color: #FFFFFF;
+}
+
+ .form-head   h2{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 110px;
+/* or 138% */
+            text-align: center;
+            background: radial-gradient(90.56% 90.56% at 50% 9.44%, #AA52FF 0%, rgba(204, 205, 216, 0) 100%), #FFFFFF;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .form-fill{
+         display: flex;
+        }
+        .form-fill input{
+            width: 400px;
+            margin: 10px;
+            display: flex;
+            border-radius: 30px;
+            height: 50px;
+        }
+       .form-fill textarea{
+        
+        height: 109px;
+        right:97%;
+       padding-top: 12%;
+       padding-left: 1%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+       text-align: center;
+       border-radius: 30px;
+       width: 195%;
+   
+       }
+
+       .form-fill .credentials button{
+        width: 380px;
+        border-radius: 30px;
+        height: 50px;
+        background: #AA52FF;
+        border-radius: 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+/* or 275% */
+        text-align: center;   
+         color: #FFFFFF;
+         margin-left: 5%;
+         
+       }
+       .form-fill .credentials button:hover{
+        background: blue;
+       }
+       .footer {
+        padding: 40px 0;
+        width: 100%;
+        height: 393px;
+        background: #181818;;
+        color:white;
+    }
+    
+    .footer .social{
+        margin-left: 16%;
+        padding: 25px;
+        color: white;
+    }
+    .footer .social a{
+        font-size: 24px;
+        color: inherit;
+        width: 80px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 0px;
+        opacity: 0.75;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+    /* identical to box height, or 100% */
+        letter-spacing: 0.231px;
+        color: #FFFFFF;
+    
+    
+    }
+    
+    .footer ul{
+        margin: 0;
+        padding-top:0 30px ;
+        font-size: 24px;
+        list-style: none;
+        line-height: 1.6;
+        margin-bottom: 0;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+    /* identical to box height, or 100% */ 
+        letter-spacing: 0.231px;
+        color: #FFFFFF;
+    
+    }
+    .footer ul li a{
+        text-decoration: none;
+        color:white;
+        opacity: 0.8;
+    
+    }
+    .footer ul li{
+        display: inline-block;
+        padding: 0 120px;
+    
+    }
+    .footer ul li a:hover{
+        opacity: 1;
+    }
+    .footer .copyright{
+        margin-top: 15px;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    /* identical to box height, or 150% */
+        letter-spacing: 0.231px;
+        color: #FFFFFF;
+    }
+    .footer .copyright:hover{
+        opacity: 1;
+    }
+    .footer ul li button{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    /* identical to box height */
+        letter-spacing: -0.1em;
+        color: #FFFFFF;
+    /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        background: #AA52FF;
+        border-radius: 72px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 12px;
+        gap: 10px;
+        width: 150px;
+        height: 30px;
+    
+    }
+    .footer ul li button:hover{
+        background: blue;
+    }
